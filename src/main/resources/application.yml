@@ -12,6 +12,6 @@ spring:
 keycloak:
   auth-server-url: http://localhost:8000
   realm: sample
-  resource: spring-boot-app
+  resource: spring-boot-api
   credentials:
-    secret: Ka8EF3AIitaG5QFP3O1RWDdCGlRMyFaT
+    secret: ${KEYCLOAK_CREDENTIALS_SECRET}
